@@ -1,0 +1,8 @@
+@import '../../variables.scss';
+
+.Root {
+	min-height: 100%;
+	max-width: $screen-large;
+	margin: 0 auto;
+	padding: 0 $gutter;
+}

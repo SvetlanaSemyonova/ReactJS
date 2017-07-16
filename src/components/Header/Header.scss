@@ -1,0 +1,31 @@
+@import '../../variables.scss';
+
+.Header {
+	margin-bottom: 20px;
+
+	&_home-icon {
+		margin-right: 5px;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: inline-flex;
+
+			a {
+				flex-shrink: 0;
+				padding: 10px;
+				background: $color-link;
+				color: #fff;
+				margin-right: 2px;
+
+				// Router.Link will automatically apply the active class
+				&.is-active {
+					background: $color-gray-6;
+				}
+			}
+		}
+	}
+}
